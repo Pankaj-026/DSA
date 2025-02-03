@@ -1,0 +1,2 @@
+Vectors are just like arrays but dynamic in nature
+Means it doesn't have specific size it change dynamically

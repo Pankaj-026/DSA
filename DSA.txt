@@ -1,0 +1,136 @@
+🔬 DSA Roadmap: From Basics to Advanced
+
+🔥 1. Learn a Programming Language
+
+    ✨ Choose a language: JavaScript, Java, Python, or any other. ✅ (JavaScript)
+    ✨ Ask yourself: “Have I stopped thinking about syntax?” If yes, you’re on the right track. ✅
+    ✨ Focus on problem-solving and building a logic-oriented mindset, not just the language. ✅
+
+🔥 2. Big O Notation
+
+    ⌚ Understand:
+    ⏳ Time & Space Complexity ✅
+    📊 Scalability of code
+    📈 Rules and Graphs ✅
+    👍🏻 Tip: You can learn this first or last. It’s often easier to do it after gaining hands-on experience. 👍🏻
+    📚 Practice a few exercises to strengthen understanding. ✅
+
+🔥 3. Data Structures
+
+🔤 Basic Data Structures
+
+    🔢 Arrays
+        📊 Understand Arrays:
+        🔸 Dynamic vs Static Arrays
+        🔸 Memory Allocation (Access & Storage)
+
+    🎡 Strings
+        📝 Learn the basics: Immutable Nature, Indexing, Iterating, Concatenation, and Substring Extraction.
+        🔧 Key operations: Case Conversion, Trimming, Splitting, and Joining.
+        🔍 Replace character, Reverse string, Check Palindrome, Find Anagrams, Longest Substring problems.
+        🌐 Practice: LeetCode (Easy level).
+
+
+    🔄 Operations:
+        🔸 Accessing and Updating Elements
+        🔸 Insertion, Deletion (End, Start, Middle)
+        🔸 Forward and Backward Traversal
+
+    🔹 Multi-Dimensional Arrays
+        🔸 Accessing Elements
+        🔸 Matrices
+
+    🔁 Manipulations:
+        🔸 Reverse, Rotate, Shuffle, Randomization
+
+    🎯 Patterns:
+        🔸 Two Pointers, Sliding Window, Subarrays
+
+    🔍 Searching & Sorting:
+        🔸 Bubble Sort, Selection Sort, Insertion Sort, Merge Sort, Quick Sort
+        🔸 Linear Search, Binary Search
+        🌐 Practice: LeetCode (Mostly Easy, Some Medium).
+
+    🗒 Linked List
+        🔧 Understand Nodes and Pointers; compare with Arrays.
+
+    🌐 Types:
+        🔸 Singly, Doubly, Circular
+
+    🔄 Implementation:
+        🔸 Define a Node with Data and Pointer
+        🔸 Use Constructors
+        🔸 Work with Head/Tail References
+        🔸 Utility Functions: IsEmpty, Size
+        🔸 Perform Insertion, Deletion, Searching
+
+    🔐 Advanced Techniques:
+        🔸 Two Pointers, Reverse a Linked List
+        🔸 Merge and Split Linked Lists
+
+    🔬 Patterns:
+        🔸 Detecting Cycles
+        🔸 Finding the Middle Node
+        🔸 N-th Node from the End
+
+    🕳️ Stack & Queue
+
+    🌐 Stack (LIFO):
+        🔸 Basic Operations: Push, Pop, Peek
+
+    🌐 Queue (FIFO):
+        🔸 Basic Operations: Add, Remove, Front
+        🔸 Circular Queue
+        🔸 Handle Underflow and Overflow
+
+    🌐 Applications:
+        🔸 BFS, Round Robin Scheduling, Balancing Symbols, Reverse a Queue
+        🔸 Thread-safe Implementations
+
+    🌐 Practice: LeetCode (Few problems).
+
+💀 Advanced Data Structures
+
+    🎡 Trees:
+        🔸 Binary Trees, Binary Search Trees, AVL Trees
+
+    🎡 Heaps:
+        🔸 Min-Heap, Max-Heap, Priority Queue
+
+    🎡 Graphs:
+        🔸 Representation: Adjacency List, Adjacency Matrix
+        🔸 Traversal: DFS, BFS
+        🔸 Applications: Shortest Path, Minimum Spanning Tree
+
+🔥 4. Algorithms
+
+    Basic Algorithms
+
+        🌐 Sorting Algorithms:
+        🔸 Bubble Sort, Selection Sort, Insertion Sort
+        🔸 Merge Sort, Quick Sort
+
+        🌐 Searching Algorithms:
+        🔸 Linear Search, Binary Search
+        🔸 DFS & BFS in Graphs
+
+        Advanced Algorithms
+
+        🎡 Dynamic Programming:
+        🔸 Identify Overlapping Subproblems
+        🔸 Techniques: Memoization, Tabulation
+
+        🎡 Greedy Algorithms:
+        🔸 Understand Concepts and Examples
+
+        🎡 Other Important Topics:
+        🔸 Backtracking
+        🔸 Shortest Path Algorithms
+        🔸 Minimum Spanning Tree
+
+🎉 Tip: Consistent practice is key. Use platforms like LeetCode, Codeforces, and GeeksforGeeks to solve problems. Progress from easy to medium, and then tackle advanced challenges.
+
+
+Love Babbar Sheet : https://drive.google.com/file/d/1FMdN_OCfOI0iAeDlqswCiC2DZzD4nPsb/view
+
+Do the hard work especially when you don't feel like doing it! 

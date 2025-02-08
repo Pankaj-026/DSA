@@ -9,5 +9,3 @@ const arr = [3, -4, 5, 4, -1, 7, -8];
   }
   console.log(maxSum);
 })(arr);
-
-console.log();

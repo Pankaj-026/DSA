@@ -1,5 +1,6 @@
 let a = [1, 2, 3, 4];
 
+// Brute Force Approach
 function productOfArray(arr) {
   let result = [];
 

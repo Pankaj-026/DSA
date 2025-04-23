@@ -8,7 +8,7 @@ let log = "";
 
 function linearSearch(arr, target) {
   for (let i = 0; i < arr.length; i++) {
-    // But its not providing index number
+    // But its not providing index num
     if (!arr.includes(target)) {
       console.log("Target Not Founded");
       return -1;

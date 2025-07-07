@@ -7,8 +7,8 @@ function negativeReturn(arr) {
         }
     }
 
-    return result
+    return result.length
 }
 
-const arr = [2,-9,17,0,1,-10,0,-120]
+const arr = [2, -9, 17, 0, 1, -10, 0, -12]
 console.log(negativeReturn(arr))

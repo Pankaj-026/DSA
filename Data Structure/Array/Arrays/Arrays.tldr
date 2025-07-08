@@ -36,9 +36,9 @@
 		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": 641.1465319231119,
-			"y": 205.28091810137306,
-			"lastActivityTimestamp": 1751997981011,
+			"x": -1073.5571889724333,
+			"y": 200.5878926606492,
+			"lastActivityTimestamp": 1751998001659,
 			"meta": {}
 		},
 		{
@@ -264,9 +264,9 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 593.7680945696003,
-			"y": 7.564615733262372,
-			"z": 1.0867397089062416,
+			"x": 1141.645607302405,
+			"y": 40.695588252408925,
+			"z": 0.6362767592215797,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
@@ -2447,6 +2447,41 @@
 			"typeName": "shape"
 		},
 		{
+			"x": -1073.5571889724333,
+			"y": 200.5878926606492,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:8ZctTQtl8J48HTaBXyvqX",
+			"type": "draw",
+			"props": {
+				"segments": [
+					{
+						"type": "free",
+						"points": [
+							{
+								"x": 0,
+								"y": 0,
+								"z": 0.5
+							}
+						]
+					}
+				],
+				"color": "black",
+				"fill": "none",
+				"dash": "draw",
+				"size": "s",
+				"isComplete": true,
+				"isClosed": false,
+				"isPen": false,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a6B6b",
+			"typeName": "shape"
+		},
+		{
 			"meta": {},
 			"id": "page:page",
 			"name": "Page 1",
@@ -2462,7 +2497,7 @@
 		},
 		{
 			"followingUserId": null,
-			"opacityForNextShape": 0.1,
+			"opacityForNextShape": 1,
 			"stylesForNextShape": {
 				"tldraw:size": "s"
 			},
@@ -2497,7 +2532,7 @@
 			"isFocused": true,
 			"devicePixelRatio": 1.015625,
 			"isCoarsePointer": false,
-			"isHoveringCanvas": false,
+			"isHoveringCanvas": true,
 			"openMenus": [],
 			"isChangingStyle": false,
 			"isReadonly": false,

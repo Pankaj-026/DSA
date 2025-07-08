@@ -4,6 +4,8 @@
 // }
 
 function secondLargest(arr) {
+    if (arr.length < 2)
+        return null
     let firstLargest = -Infinity;
     let secondLargest = -Infinity;
 
@@ -11,7 +13,7 @@ function secondLargest(arr) {
         if (arr[i] > firstLargest) {
             secondLargest = firstLargest;
             firstLargest = arr[i];
-        } else if (arr[i] > secondLargest) {
+        } else if (arr[i] > secondLargest && arr[i] !== firstLargest) {
             secondLargest = arr[i];
         }
 
@@ -21,4 +23,4 @@ function secondLargest(arr) {
     // return firstLargest
 }
 
-console.log(secondLargest([2, 3, 40, 14, 9, 34]));
+console.log(secondLargest([2, 3, 40, 14, 9, 40 ,34]));

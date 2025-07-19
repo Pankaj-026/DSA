@@ -32,10 +32,21 @@
 
 // Todo: Right Angle Triangle of Repeated Number
 
-for (let i = 1; i <= 4; i++) {
+// for (let i = 1; i <= 4; i++) {
+//   let row = "";
+//   for (let j = 1; j <= i; j++) {
+//     row += i;
+//   }
+//   console.log(row);
+// }
+
+
+// Todo:  Right Angle Triangle of Number in Reverse
+
+for (let i = 0; i < 4; i++) {
   let row = "";
-  for (let j = 1; j <= i; j++) {
-    row += i;
+  for (let j = 1; j <= 4 - i; j++) {
+    row += j;
   }
   console.log(row);
 }

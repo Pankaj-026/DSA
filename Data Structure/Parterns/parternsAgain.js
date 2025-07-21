@@ -68,18 +68,31 @@
 
 //  Todo: Right-Angled Triangle of Alternating 1s and 0s
 
+// let n = 4;
+
+// for (let i = 0; i < n; i++) {
+//   let nums = 1
+//   let row = ""
+
+//   for (let j = n; j >= n - i; j--) {
+//     row += `${nums} `;
+//       nums = (nums === 1) ? 0 : 1
+//   }
+//   console.log(row);
+// }
+
+
+// Todo: Right-Angled Triangle of Alternating 1s and 0s (Global Toggle)
+
 let n = 4;
 
+let nums = 1
 for (let i = 0; i < n; i++) {
   let row = ""
-  let nums = 1
 
   for (let j = n; j >= n - i; j--) {
     row += `${nums} `;
-      nums = (nums === 1) ? 0 : 1
+    nums = (nums === 1) ? 0 : 1
   }
   console.log(row);
 }
-
-
-// Todo: 

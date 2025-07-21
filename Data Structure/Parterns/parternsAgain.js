@@ -72,11 +72,14 @@ let n = 4;
 
 for (let i = 0; i < n; i++) {
   let row = ""
-  let nums = "1"
+  let nums = 1
 
   for (let j = n; j >= n - i; j--) {
     row += `${nums} `;
-      (nums === "1") ? nums = "0" : nums = "1"
+      nums = (nums === 1) ? 0 : 1
   }
   console.log(row);
 }
+
+
+// Todo: 

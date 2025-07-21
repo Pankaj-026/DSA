@@ -52,15 +52,31 @@
 // }
 
 // Todo: Right-Aligned Right-Angled Triangle of Stars
-let n = 4
+// let n = 4
+
+// for (let i = 0; i < n; i++) {
+//   let row = "";
+//   for (let j = 1; j < n - i; j++) {
+//     row += " "
+//   }
+//   for (let k = n; k >= n-i; k--) {
+//     row += "*"
+//   }
+//   console.log(row);
+// }
+
+
+//  Todo: Right-Angled Triangle of Alternating 1s and 0s
+
+let n = 4;
 
 for (let i = 0; i < n; i++) {
-  let row = "";
-  for (let j = 1; j < n - i; j++) {
-    row += " "
-  }
-  for (let k = n; k >= n-i; k--) {
-    row += "*"
+  let row = ""
+  let nums = "1"
+
+  for (let j = n; j >= n - i; j--) {
+    row += `${nums} `;
+      (nums === "1") ? nums = "0" : nums = "1"
   }
   console.log(row);
 }
